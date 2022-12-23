@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fine Grained Memory PGV</title>
+    <link rel="stylesheet" href="css/drv_recomm.css">
+    <style>
+      table,
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+    
+  </head>
+  
+  
+  <body>
+<div class="a"><b>Fine-Grained Memory PGV characterization.</b></div>
+</br>
+See picture from article and notice, there are 2 types of nets ; Always-on Net (in lef) and Internal Switched Net (in GDS)
+Important one is Internal Switched net....find out its label from GDS and use in option set_advanced_pg_library_mode -add_port_labels
+
+RON comes from spice only otherwise you will have to specify -powergate_parameters 
+
+  </br>
+</br>
+    <table>
+      <tr>
+        <th>Content</th>
+        <th>Related Commands</th>
+        <th>Additional Information</th>
+</tr>
+
+
+
+      <!--Basic code-->
+      <tr>
+        <td>-</td>
+        <td>Design Loading Command</td>
+<td>-  </td>
+</tr>
+
+
+
+
+
+
+<!--Nav Code-->
+      <tr>
+        <td>Nav</td>
+        <td><div class="b">set timing_report_drv_per_frequency_per_input_slew true</div></br>
+          
+        </td>
+        <td>click <a href="nav.html">here</a></td>
+      </tr>
+
+
+
+    </table>
+  </body>
+</html>
